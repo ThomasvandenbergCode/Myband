@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.inline {
+    float: left;
+
+}
+
+.form {
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+
+}
+
+form {
+    width: 100%;
+    height: 74px;
+    padding-top: 25px;
+}
+
+input[type=text],
+input[type=password] {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 350px;
+    border: 1px solid lightgrey;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+::placeholder {
+    color: lightgrey;
+}
+
+input[type=password] {
+    margin-top: 25px;
+}
+
+.welcome {
+    text-align: center;
+    color: darkGrey;
+}
+
+.button,
+input[type=submit]  {
+
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 360px;
+
+}
+
+input[type=submit] {
+    float: left;
+    margin-left: 3.1em;
+    margin-top: 2em;
+}
+
+
+
+/*@media screen and (max-width: 1358px) {*/
+    /*.button,*/
+    /*input[type=submit] {*/
+        /*padding: 5px;*/
+        /*width: 100px;*/
+    /*}*/
+
+    /*@media screen and (max-width: 1196px) {*/
+        /*input[type=text],*/
+        /*input[type=password] {*/
+            /*width: 300px;*/
+        /*}*/
+
+        /*@media screen and (max-width: 1028px) {*/
+            /*input[type=text],*/
+            /*input[type=password] {*/
+                /*width: 275px;*/
+            /*}*/
+
+            /*@media screen and (max-width: 1358px) {*/
+                /*.button,*/
+                /*input[type=submit] {*/
+                    /*width: 75px;*/
+                /*}*/
+
+                /*@media screen and (max-width: 945px) {*/
+                    /*input[type=text],*/
+                    /*input[type=password] {*/
+                        /*width: 250px;*/
+                    /*}*/
+
+                    /*@media screen and (max-width: 861px) {*/
+                        /*input[type=text],*/
+                        /*input[type=password] {*/
+                            /*width: 225px;*/
+                        /*}*/
+
+                        /*@media screen and (max-width: 857px) {*/
+                            /*.button,*/
+                            /*input[type=submit] {*/
+                                /*width: 50px;*/
+                                /*font-size: 12px;*/
+                            /*}*/
+
+                            /*@media screen and (max-width: 783px) {*/
+                                /*input[type=text],*/
+                                /*input[type=password] {*/
+                                    /*width: 200px;*/
+                                /*}*/
+
+                                /*@media screen and (max-width: 702px) {*/
+                                    /*.form {*/
+                                        /*width: 350px;*/
+                                    /*}*/
+
+                                    /*input[type=submit] {*/
+                                        /*margin-left: 6em;*/
+                                    /*}*/
+
+                                    /*.button2 {*/
+                                        /*margin-right: 6em;*/
+                                    /*}*/
+                                /*}*/

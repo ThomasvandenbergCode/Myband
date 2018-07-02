@@ -1,0 +1,147 @@
+html {
+    background: white;
+
+}
+
+body {
+   text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+.fas,
+.fab{
+    margin-right: 10px;
+}
+
+
+
+
+.content {
+    background-color: red;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: tomato;
+    padding: 10px;
+
+}
+
+header h1 {
+    color: white;
+
+}
+
+
+
+.admin-login a:hover {
+    color: black
+}
+.navbar {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+
+
+
+}
+
+.admin-login {
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+}
+
+.admin-login a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    color: black;
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+}
+
+
+.left {
+    margin-bottom: 1000px;
+    border-bottom: 3px solid yellowgreen;
+    text-decoration: none;
+    margin-right: 100px;
+    color: black;
+}
+
+.right {
+    border-bottom: 3px solid yellowgreen;
+    text-decoration: none;
+    margin-left: 80px;
+    color: black;
+}
+
+.numberofpages {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
+.currentpage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+
+.line {
+    border-bottom: 4px solid yellowgreen;
+}
+
+.color {
+    color: red;
+}
+
+#pot{
+    position: fixed;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 6%;}
+    100%{ left: 0;}
+}
+
+.home {
+    position: fixed;
+    left: 0;
+    top: 4;
+    text-decoration: none;
+}
