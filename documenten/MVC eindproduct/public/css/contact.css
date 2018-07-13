@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fas,
+.fab{
+    margin-right: 10px;
+}
+
+
+
+
+header {
+    height: 40px;
+
+}
+
+
+
+
+
+
+.navbar {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #272728;
+    margin-right: 10px;
+    padding: 10px;
+    text-shadow: 1px 1px 10px;
+
+
+
+
+
+}
+
+.admin-login {
+    color: white;
+
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+}
+
+.admin-login a {
+    text-decoration: none;
+    color: #272728;
+    text-shadow: 1px 1px 10px;
+}
+
+.admin-login a:hover,
+.navbar a:hover {
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+
+
+
+main {
+
+}
+
+.omhulsel {
+    margin: 0 auto;
+}
+
+.bovenkant p {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.bovenkant {
+    background-color: rgb(237, 237, 237);
+    width: 550px;
+    height: 125px;
+    margin: 0 auto;
+
+
+}
+
+
+.midden {
+    background-image: url("googlemaps.png");
+    width: 550px;
+    height: 325px;
+    margin: 0 auto;
+
+
+}
+
+
+.onderkant {
+    background-color: rgb(0, 139, 186);
+    width: 550px;
+    height: 125px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0 auto;
+
+
+}

@@ -1,0 +1,297 @@
+
+
+body {
+
+
+
+    background-image: url('liquicity_festival.png');
+    background-attachment:         fixed;
+    background-position:           center;
+    background-repeat:             no-repeat;
+    background-size:               cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fas,
+.fab{
+    margin-right: 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 200px;
+
+
+}
+
+#logo{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#bannerDiv{
+    /*background: gray;*/
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+header {
+    height: 40px;
+
+}
+
+header h1 {
+    color: white;
+
+}
+
+
+
+
+
+.navbar {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    text-shadow: 1px 1px 10px;
+
+
+
+
+
+}
+
+.admin-login {
+    color: white;
+
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+}
+
+.admin-login a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 10px;
+}
+
+.admin-login a:hover,
+.navbar a:hover {
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+.title {
+    color: white;
+    text-decoration: none;
+}
+
+
+.left {
+    margin-bottom: 1000px;
+    border-bottom: 3px solid yellowgreen;
+    text-decoration: none;
+    /*margin-right: 100px;*/
+    color: black;
+}
+
+.right {
+    border-bottom: 3px solid yellowgreen;
+    text-decoration: none;
+    /*margin-left: 80px;*/
+    color: black;
+}
+
+.numberofpages {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /*margin-right: 10px;*/
+}
+
+.currentpage {
+    position: fixed;
+    top: 0;
+    left: 0;
+        margin-left: 10px;
+}
+
+.line {
+    border-bottom: 4px solid yellowgreen;
+}
+
+.color {
+    color: red;
+}
+
+#pot{
+    position: fixed;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 6%;}
+    100%{ left: 0;}
+}
+
+.home {
+    position: fixed;
+    left: 0;
+
+    text-decoration: none;
+}
+
+
+.columnimage {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 48px;
+    right: 10px;
+
+}
+
+
+.column {
+    position: relative;
+    color: #424344;
+    margin-top: 100px;
+    height: 500px;
+
+    background: linear-gradient(to bottom right, rgba(255,255,255,1) , rgba(255,255,255,0.5));
+
+
+}
+.column p,
+.column h1 {
+    width: 500px;
+    text-align: left;
+    padding: 25px;
+   margin-left: 100px;
+}
+
+.column h1 {
+    border-left: 1px solid #545656;
+}
+
+.column p {
+    font-family: 'Open Sans', sans-serif;
+    color: #545656;
+    width: 450px;
+    border-left: 1px solid #545656;
+}
+
+.column a {
+    color: #413851;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+
+
+.column2 {
+    margin-top: 200px;
+    height: 500px;
+    background-color: rgba(255,255,255);
+}
+
+
+
+
+footer {
+        width: 100%;
+        margin-top: 300px;
+        position: relative;
+        bottom: 0;
+        box-sizing: border-box;
+    margin-bottom: 50px;
+
+}
+
+.smallfootbar {
+    width: 40%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    margin-bottom: 5px;
+}
+.footerbar {
+    width: 50%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons {
+    width: 50px;
+    height: auto;
+    margin: 0.5em;
+}
+
+a {
+    width: 100px;
+    height: auto;
+    text-decoration: none;
+    color: grey;
+}
+
+.iconcollumn {
+    display: block;
+    float: left;
+    /*width: 20%;*/
+
+}
+.row{
+    margin-left: 820px;
+
+    width: max-content;
+ }
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.smallunderbar {
+    width: 40%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+}
+.underbar {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
